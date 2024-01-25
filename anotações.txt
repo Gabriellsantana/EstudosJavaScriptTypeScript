@@ -1,1 +1,4 @@
+atalhos 
+Shift + Alt + SetaParaBaixo (mutiplica alinha)
+
 1 - console.log (exebir mensagem na tela)

@@ -6,6 +6,7 @@
 // Case-sensitive
 // Não podemos redeclarar variáveis com let
 // Não utilize VAR , utilize LET
+// VAR LET CONST
 
 let nome = "Gabriel"; //let é mais ultilizado var é algo antigo pouco usado
 var sobrenome = "Santana"
