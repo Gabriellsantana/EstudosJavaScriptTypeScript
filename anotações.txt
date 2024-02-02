@@ -2,3 +2,4 @@ atalhos
 Shift + Alt + SetaParaBaixo (mutiplica alinha)
 
 1 - console.log (exebir mensagem na tela)
+2- window.alert (exibir texto em uma página html)
