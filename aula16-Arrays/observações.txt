@@ -1,0 +1,3 @@
+ARRAYS = é uma lista em mjs
+
+const lista = [ 12, 'gabriel' ,0.8]
