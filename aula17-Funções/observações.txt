@@ -1,0 +1,19 @@
+Function  sempre executar ações 
+
+como cria:
+
+Function nome(){
+    fdffsf
+    fdsgfgf
+    gfgggg
+}
+
+pare metros: SÃO COMO SE FOSSE VARIAVEL DA FUNCAO NO MOMENTO QUE PARAMENTRO ALI ESTA DENTRO DE PARENTESE ELE POEDER RECEBER UM VALOR
+
+Function nome (paremetros) {
+    fdffsf
+    fdsgfgf
+    gfgggg
+}
+
+return sempre encerra function entao o codificadoe quando ler o return ele não compila nada mais abaixo
