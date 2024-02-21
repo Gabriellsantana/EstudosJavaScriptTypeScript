@@ -1,0 +1,19 @@
+Array em JavaScript:
+Um array é uma coleção ordenada de valores.
+Os elementos de um array podem ser de qualquer tipo de dado, inclusive outros arrays.
+Os arrays em JavaScript são dinâmicos, o que significa que seu tamanho pode crescer ou diminuir dinamicamente durante a execução do programa.
+Os índices dos elementos em um array começam em 0 e vão até o comprimento do array menos um.
+Exemplo de declaração de um array em JavaScript:
+let array = [1, 2, 3, 4, 5];
+
+Objeto em JavaScript:
+Um objeto é uma coleção de pares chave-valor, onde as chaves são strings (ou símbolos) e os valores podem ser de qualquer tipo de dado.
+Os objetos em JavaScript são usados para representar entidades do mundo real.
+Os membros de um objeto podem ser acessados por meio da notação de ponto (objeto.propriedade) ou da notação de colchetes (objeto['propriedade']).
+Exemplo de declaração de um objeto em JavaScript:
+
+let pessoa = {
+    nome: 'João',
+    idade: 30,
+    cidade: 'São Paulo'
+};
