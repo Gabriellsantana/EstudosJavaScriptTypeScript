@@ -1,0 +1,43 @@
+body{
+    box-sizing: border-box;
+    background-color: darkslategrey;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+.container{
+   max-width: 30%;
+   margin: auto;
+   margin-top:5% ;
+   background-color: white;
+   padding: 1rem;
+}
+
+form label, form input{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    
+}
+
+input:focus{
+  outline: solid 2px blue;
+}
+button{
+    padding: 0.3rem;
+    font-size: 1.5rem;
+    width: 30%;
+    display: block;
+    margin: auto;
+    color: blue;
+    margin-top: 30px;
+}
+
+button:focus{
+    outline: solid 2px blue;
+}
+p{
+    text-align: justify;
+}
