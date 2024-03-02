@@ -9,19 +9,29 @@
 <body>
     
        <section class="container">
-          <h1>IMC</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tenetur labore eum, voluptates sed pariatur minus perferendis fugit mollitia reprehenderit aliquam exercitationem fuga, veritatis esse temporibus suscipit tempora eius officia?</p>
+          <h1> < IMC ></h1>
+          <p>
+            O IMC é uma medida usada para avaliar a relação entre peso e altura de uma pessoa e é frequentemente utilizado para determinar se alguém está com peso abaixo do normal, peso normal, sobrepeso ou obesidade
+          </p>
+             <ul >
+              <li style="list-style: none;"><h4>Tabela</h4></li>
+                <li> Abaixo do peso: IMC menor que 18.5</li>
+                <li> Peso normal: IMC entre 18.5 e 24.9</li>
+                <li> Sobrepeso: IMC entre 25 e 29.9 </li>
+                <li> Obesidade: IMC 30 ou maior</li>
+             </ul>
            
           <form action="" id="formulario">
             <label for="peso">Peso:</label>
-            <input type="text" id="peso"> 
+            <input type="text" id="peso" required> 
             
             <label for="altura">Altura</label>
-            <input type="text" id="altura">
+            <input type="text" id="altura" required >
   
           
-            <button type="submit">compilar </button>
+            <button type="submit" onclick="compilar()">compilar </button>
           </form>
+          <br>
              <div id="result">Resultado . . .</div>
         </section>
     <script src="assets/js/main.js"></script>
