@@ -3,3 +3,6 @@ Shift + Alt + SetaParaBaixo (mutiplica alinha)
 
 1 - console.log (exebir mensagem na tela)
 2- window.alert (exibir texto em uma página html)
+3- Variavel.InertxtHTMl = escreve no html atraves js
+
+vou rever aulas do curso (parei na sessão 3 aula-44)

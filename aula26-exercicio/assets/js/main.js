@@ -1,6 +1,6 @@
 //parando envio do formulario
-let form =  document.getElementById("formulario")
-form.onsubmit = function (evento) {
+let form =  document.getElementById("formulario")//selecionei pelo id
+form.onsubmit = function (evento) { //onSubimit é o evento q esta dentro do formulario type "subinit" na vdd ele esta no meu buttom la no html
     evento.preventDefault();
  };
 
@@ -9,17 +9,17 @@ function compilar(){
     const peso = Number(document.getElementById("peso").value)
     const altura = Number(document.getElementById("altura").value)
     let imc = peso /(altura*altura)
-    let resultado =  document.getElementById('result')
-    if(peso === 0 && altura === 0 ){
+    let resultado =  document.getElementById('result') 
+    if(!peso  && !altura  ){
        
         resultado.style.backgroundColor = "blue"
         resultado.innerText = `Nehuma Informação Digitada`
           
-    } else if ( peso === 0){
+    } else if ( peso === 0 || !peso){
         resultado.style.backgroundColor = "red"
         resultado.innerText = `Peso  Invalido `
 
-    } else if (altura === 0){
+    } else if (altura === 0  || !altura ){
         resultado.style.backgroundColor = "red"
         resultado.innerText = `Altura  Invalido `
 
