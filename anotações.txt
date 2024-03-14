@@ -6,3 +6,6 @@ Shift + Alt + SetaParaBaixo (mutiplica alinha)
 3- Variavel.InertxtHTMl = escreve no html atraves js
 
 vou rever aulas do curso (parei na sessão 3 aula-44)
+
+
+fixa casa decimal do numero =  var.toFixed(1);
